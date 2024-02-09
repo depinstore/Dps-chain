@@ -1,0 +1,116 @@
+2024-01-19T03:20:05Z INFO     : level=info
+2024-01-19T03:20:05Z INFO     : Arguments map[--add-exclusive-node:[] --add-priority-node:[] --badgerzstd:false --boltdb:false --broadcast-threads:<nil> --compact:false --data-dir:<nil> --fast-sync:false --ffldb:false --help:false --log-level:<nil> --lowcpuram:false --min-peers:<nil> --mining-address:<nil> --mining-threads:<nil> --netEnv:<nil> --node-tag:<nil> --p2p-accept-limit:<nil> --p2p-bind:<nil> --p2p-bind-tcp:<nil> --p2p-bind-udp:<nil> --p2p-proto:<nil> --pool-id:<nil> --rpc-bind:<nil> --socks-proxy:<nil> --sync-node:false --testNet:false --version:false --vote-rpc-address:<nil> -h:false -v:false]
+2024-01-19T03:20:05Z INFO     : level=info msg="Network: mainNet"
+2024-01-19T03:20:05Z INFO     : level=info msg="Version: 1.0.4-1227.beta.Athena"
+2024-01-19T03:20:05Z INFO     : level=info msg="Copyright 2023-2024 DepinStore Project. All rights reserved."
+2024-01-19T03:20:05Z INFO     : level=info msg="OS:linux ARCH:amd64 GOMAXPROCS:8"
+2024-01-19T03:20:05Z INFO     : level=info msg="Daemon data directory /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet"
+2024-01-19T03:20:05Z INFO     : level=info msg="Initialising blockchain" source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z WARN     : Loading checksums for mainNet from file mainnet_checksum.dat failed err open /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/mainnet_checksums.dat: no such file or directory len 0
+2024-01-19T03:20:05Z INFO     : level=info msg="Succesfully built checksum tree count 11097" source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : level=info msg="Initializing boltdb store at path /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/depinstore_database.db" source=STORE
+2024-01-19T03:20:05Z INFO     : level=info msg="Mempool started" source=POOL
+2024-01-19T03:20:05Z INFO     : level=warning msg="Error opening mempool data file /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/mempool.json err open /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/mempool.json: no such file or directory" source=POOL
+2024-01-19T03:20:05Z INFO     : level=info msg="Added genesis block a74ce3a0c21982013d04610e909644ab80671e88aee542c419114635b4da1302 successfully" source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : level=info msg="Chain Tips  [a74ce3a0c21982013d04610e909644ab80671e88aee542c419114635b4da1302] Height 0" source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : level=info msg="Fixing pool close height, please wait a moment ..." source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : level=info msg="Fixing vote records, please wait a moment ..." source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : level=info msg="Optimizing share storage, please wait a moment ..." source=DEPINSTORECHAIN
+2024-01-19T03:20:05Z INFO     : Hardware AES detected
+2024-01-19T03:20:05Z INFO     : level=info msg="Peer ID: 7887263537613471011" source=P2P
+2024-01-19T03:20:05Z INFO     : level=warning msg="Error opening ban data file /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/ban_list.json err open /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/ban_list.json: no such file or directory" source=P2P
+2024-01-19T03:20:05Z INFO     : level=warning msg="Error opening peer data file /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/peers.json err open /root/go/src/github.com/depinstoreproject/depinstoresuite/build/depinstore_linux_amd64/mainNet/peers.json: no such file or directory" source=P2P
+2024-01-19T03:20:05Z INFO     : level=info msg="P2P(TCP) will listen on 0.0.0.0:33663" source=P2P
+2024-01-19T03:20:05Z INFO     : level=info msg="P2P(UDP) will listen on 0.0.0.0:33663" source=P2P
+2024-01-19T03:20:05Z INFO     : level=info msg="P2P started" source=P2P
+2024-01-19T03:20:05Z INFO     : level=info msg="RPC server started" source=RPC
+2024-01-19T03:20:05Z INFO     : Connection established to 172.16.128.206:33663:udp(udp)
+2024-01-19T03:20:05Z INFO     : level=info msg="RPC  will listen on 127.0.0.1:33664" source=RPC
+2024-01-19T03:20:05Z INFO     : Connection established to 172.16.128.205:33663:udp(udp)
+2024-01-19T03:20:05Z INFO     : Connection established to 172.16.128.206:33663:tcp(tcp)
+2024-01-19T03:20:05Z INFO     : Connection established to 172.16.128.205:33663:tcp(tcp)
+2024-01-19T03:20:07Z INFO     : Chain extended new height 1 blid 86fb4897c4a6add521ce736dea343376df4f6655df30a9d9b2fc5a79b8b53331
+2024-01-19T03:20:07Z INFO     : level=info msg="Chain Height 1" Blockhash=86fb4897c4a6add521ce736dea343376df4f6655df30a9d9b2fc5a79b8b53331 source=DEPINSTORECHAIN
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 86fb4897c4a6add521ce736dea343376df4f6655df30a9d9b2fc5a79b8b53331
+2024-01-19T03:20:07Z INFO     : Chain extended new height 2 blid 11fd5bc2ddd450eda91b2cc5957b93b5c012e84d72c03404fff70c57cec11da5
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 11fd5bc2ddd450eda91b2cc5957b93b5c012e84d72c03404fff70c57cec11da5
+2024-01-19T03:20:07Z INFO     : Chain extended new height 3 blid d875dd7197cb199909c03c3da3de167725a8eb5820e90d61c15201729eacaa6b
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain d875dd7197cb199909c03c3da3de167725a8eb5820e90d61c15201729eacaa6b
+2024-01-19T03:20:07Z INFO     : Chain extended new height 4 blid ed74cfc3ab3316377b4202ab984716c157992056e85b8896241b428b6e3c537d
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain ed74cfc3ab3316377b4202ab984716c157992056e85b8896241b428b6e3c537d
+2024-01-19T03:20:07Z INFO     : level=info msg="Exit in Progress, Please wait"
+2024-01-19T03:20:07Z INFO     : Chain extended new height 5 blid 589d97f81fd720475e4214ac19afb18c9891b1c420e53bb25474ceaec5fb2772
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 589d97f81fd720475e4214ac19afb18c9891b1c420e53bb25474ceaec5fb2772
+2024-01-19T03:20:07Z INFO     : Chain extended new height 6 blid a5b6beea3e10566ddc26abafa6ce6e02a298003e20c3e684f6e7729ee3151da4
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain a5b6beea3e10566ddc26abafa6ce6e02a298003e20c3e684f6e7729ee3151da4
+2024-01-19T03:20:07Z INFO     : Chain extended new height 7 blid 31ce48411c2e94c43491908c2d958c7d5dbed371bd5fca4772c4a81b73d14ddd
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 31ce48411c2e94c43491908c2d958c7d5dbed371bd5fca4772c4a81b73d14ddd
+2024-01-19T03:20:07Z INFO     : Chain extended new height 8 blid 4c51df9d139bc78de0bb548f9b011fae243afdb87f0b8432d30f2556887719db
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 4c51df9d139bc78de0bb548f9b011fae243afdb87f0b8432d30f2556887719db
+2024-01-19T03:20:07Z INFO     : Chain extended new height 9 blid 8c9672e895454240706d3cfe4c9aada6e8c9f78c79be422edd65b0cf9e7e86cf
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 8c9672e895454240706d3cfe4c9aada6e8c9f78c79be422edd65b0cf9e7e86cf
+2024-01-19T03:20:07Z INFO     : Chain extended new height 10 blid 540fda3790a8efaa4fb0774bf1c6acb228a68ba3e509c967be6fe9aee2d4cf92
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 540fda3790a8efaa4fb0774bf1c6acb228a68ba3e509c967be6fe9aee2d4cf92
+2024-01-19T03:20:07Z INFO     : Chain extended new height 11 blid ae2a95c8eb0f164b10b409a9fbb189f1e7b289b19431770831912823fa365871
+2024-01-19T03:20:07Z INFO     : level=info msg="Chain Height 11" Blockhash=ae2a95c8eb0f164b10b409a9fbb189f1e7b289b19431770831912823fa365871 source=DEPINSTORECHAIN
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain ae2a95c8eb0f164b10b409a9fbb189f1e7b289b19431770831912823fa365871
+2024-01-19T03:20:07Z INFO     : Chain extended new height 12 blid 5a88f55656195cad1f3c2216b97c5764d60a0eedb3abc5307b08845c5081ef4b
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 5a88f55656195cad1f3c2216b97c5764d60a0eedb3abc5307b08845c5081ef4b
+2024-01-19T03:20:07Z INFO     : Chain extended new height 13 blid 62854bd80a527469987356af0f1d33c2f60220c4aa87c3678600ba5af94a0ad0
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 62854bd80a527469987356af0f1d33c2f60220c4aa87c3678600ba5af94a0ad0
+2024-01-19T03:20:07Z INFO     : Chain extended new height 14 blid 42b9de81aae56c5c216799e4af2f81d6eccacbafa91777a702de2488559f9171
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 42b9de81aae56c5c216799e4af2f81d6eccacbafa91777a702de2488559f9171
+2024-01-19T03:20:07Z INFO     : Chain extended new height 15 blid d2f7c40f9ad2177a939741224086dfb274fed3f04250e36e862af4a881db76d6
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain d2f7c40f9ad2177a939741224086dfb274fed3f04250e36e862af4a881db76d6
+2024-01-19T03:20:07Z INFO     : Chain extended new height 16 blid 240c9d23f00d707b04b2456d38eecd101fa171d78f83ed1a5bdf5bf8129572ff
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 240c9d23f00d707b04b2456d38eecd101fa171d78f83ed1a5bdf5bf8129572ff
+2024-01-19T03:20:07Z INFO     : Chain extended new height 17 blid 4037f0947b9ab25a0297be3e0641a9d91ebaa887d733e7cf36962b10b7af07fe
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 4037f0947b9ab25a0297be3e0641a9d91ebaa887d733e7cf36962b10b7af07fe
+2024-01-19T03:20:07Z INFO     : Chain extended new height 18 blid 43793571bd2cea4f2dbfde3b16ba6c7b71d0a789b6ee39cc5c867d2724166750
+2024-01-19T03:20:07Z INFO     : Block successfully acceppted by chain 43793571bd2cea4f2dbfde3b16ba6c7b71d0a789b6ee39cc5c867d2724166750
+2024-01-19T03:20:07Z INFO     : Chain extended new height 19 blid 3f8e01d09617f64b211f767179bc8ce08181b21b6055d00c7fff366c5c2640ee
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 3f8e01d09617f64b211f767179bc8ce08181b21b6055d00c7fff366c5c2640ee
+2024-01-19T03:20:08Z INFO     : Chain extended new height 20 blid 18da959a40ce297de478e04189c2ab39f74ed46863489cd30ddb1a6a9fee484d
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 18da959a40ce297de478e04189c2ab39f74ed46863489cd30ddb1a6a9fee484d
+2024-01-19T03:20:08Z INFO     : Chain extended new height 21 blid a24b71db37be8703f8747ffba84692699a2d5547098cf1c00859e32786f2ba53
+2024-01-19T03:20:08Z INFO     : level=info msg="Chain Height 21" Blockhash=a24b71db37be8703f8747ffba84692699a2d5547098cf1c00859e32786f2ba53 source=DEPINSTORECHAIN
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain a24b71db37be8703f8747ffba84692699a2d5547098cf1c00859e32786f2ba53
+2024-01-19T03:20:08Z INFO     : Chain extended new height 22 blid df0710dbc079f1f3d991b922006d7d4c5ae71484f580acc889420526ea36cd39
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain df0710dbc079f1f3d991b922006d7d4c5ae71484f580acc889420526ea36cd39
+2024-01-19T03:20:08Z INFO     : Chain extended new height 23 blid b3469edeb07b57b78d4e22b483068a11a541484966950552be23cfe8b3f2dbbe
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain b3469edeb07b57b78d4e22b483068a11a541484966950552be23cfe8b3f2dbbe
+2024-01-19T03:20:08Z INFO     : Chain extended new height 24 blid a4e2e34f674db3eeb37e39f2b9c583571e66b0282303541011a389c1e77b4a64
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain a4e2e34f674db3eeb37e39f2b9c583571e66b0282303541011a389c1e77b4a64
+2024-01-19T03:20:08Z INFO     : Chain extended new height 25 blid 4e2ed873a2a99dc1c0a2fda968a1b0619cdde42abf5d56da6ff27cf57250b6b2
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 4e2ed873a2a99dc1c0a2fda968a1b0619cdde42abf5d56da6ff27cf57250b6b2
+2024-01-19T03:20:08Z INFO     : Chain extended new height 26 blid 6f7fffd4639a1412a64f434c4a0cec69a082d21b3956b0ecbfea8e03786b3d86
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 6f7fffd4639a1412a64f434c4a0cec69a082d21b3956b0ecbfea8e03786b3d86
+2024-01-19T03:20:08Z INFO     : Chain extended new height 27 blid 16f39939f6c33fed9bd3f91883325c6d4aa5a235fcc79fa8a6274dceb9e139ab
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 16f39939f6c33fed9bd3f91883325c6d4aa5a235fcc79fa8a6274dceb9e139ab
+2024-01-19T03:20:08Z INFO     : level=info msg="RPC Shutdown" source=RPC
+2024-01-19T03:20:08Z WARN     : Could not read length prefix err read tcp 192.168.24.66:55930->172.16.128.205:33663: use of closed network connection level=debug DIR=OUT NET=tcp RIP="172.16.128.205:33663" source=P2P
+2024-01-19T03:20:08Z WARN     : Could not read length prefix err io: read/write on closed pipe level=debug DIR=OUT NET=udp RIP="172.16.128.206:33663" source=P2P
+2024-01-19T03:20:08Z WARN     : Could not read length prefix err io: read/write on closed pipe level=debug DIR=OUT NET=udp RIP="172.16.128.205:33663" source=P2P
+2024-01-19T03:20:08Z INFO     : Chain extended new height 28 blid 488c44f038a91990d27e4085aa54730985cc064d9c06f6e2a6cbc995c33aebb9
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 488c44f038a91990d27e4085aa54730985cc064d9c06f6e2a6cbc995c33aebb9
+2024-01-19T03:20:08Z INFO     : Chain extended new height 29 blid 8f2f439021b0a783172b9a0bdfc88547806f5ea40bab73ccb53203c66100dcec
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 8f2f439021b0a783172b9a0bdfc88547806f5ea40bab73ccb53203c66100dcec
+2024-01-19T03:20:08Z INFO     : Chain extended new height 30 blid c163b2a868d67b3cdcc7e27127bb97c33e9679ca32e543010cff914d9c9aa4ec
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain c163b2a868d67b3cdcc7e27127bb97c33e9679ca32e543010cff914d9c9aa4ec
+2024-01-19T03:20:08Z INFO     : Chain extended new height 31 blid e4092a239fc7288198166ba3cb1723d7c84fbc463d3ba015e511a185e3cfd937
+2024-01-19T03:20:08Z INFO     : level=info msg="Chain Height 31" Blockhash=e4092a239fc7288198166ba3cb1723d7c84fbc463d3ba015e511a185e3cfd937 source=DEPINSTORECHAIN
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain e4092a239fc7288198166ba3cb1723d7c84fbc463d3ba015e511a185e3cfd937
+2024-01-19T03:20:08Z INFO     : Chain extended new height 32 blid 05c4e790e44d95bca6e367f34bf95ca4d603e702cbd05d227cca348ef353595a
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 05c4e790e44d95bca6e367f34bf95ca4d603e702cbd05d227cca348ef353595a
+2024-01-19T03:20:08Z INFO     : Chain extended new height 33 blid 4817f0d5b1ee6b62b584ddde91bfeebb6ed735efeda013b4abe36927ae37422e
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 4817f0d5b1ee6b62b584ddde91bfeebb6ed735efeda013b4abe36927ae37422e
+2024-01-19T03:20:08Z INFO     : Chain extended new height 34 blid a5266f13299cea71e97926a030bd5d3fc182b49708919768359db1c160999bd2
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain a5266f13299cea71e97926a030bd5d3fc182b49708919768359db1c160999bd2
+2024-01-19T03:20:08Z INFO     : Chain extended new height 35 blid 0c29ebb22a3143e7e30e17ebd525c6fd21d51e3cd6762e9fca860ab91c7f2560
+2024-01-19T03:20:08Z INFO     : Block successfully acceppted by chain 0c29ebb22a3143e7e30e17ebd525c6fd21d51e3cd6762e9fca860ab91c7f2560
+2024-01-19T03:20:08Z WARN     : Could not read length prefix err read tcp 192.168.24.66:42492->172.16.128.206:33663: use of closed network connection level=debug DIR=OUT NET=tcp RIP="172.16.128.206:33663" source=P2P
+2024-01-19T03:20:09Z INFO     : level=info msg="P2P Shutdown" source=P2P
+2024-01-19T03:20:09Z INFO     : level=info msg="Succesfully saved 0 txs to file" source=POOL
+2024-01-19T03:20:09Z INFO     : level=info msg="Mempool stopped" source=POOL
+2024-01-19T03:20:09Z INFO     : level=info msg="Stopping Blockchain" source=DEPINSTORECHAIN
+2024-01-19T03:20:09Z INFO     : level=info msg="Shutting boltdb store" source=STORE
